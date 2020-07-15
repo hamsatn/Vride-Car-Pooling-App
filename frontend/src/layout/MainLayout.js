@@ -40,7 +40,7 @@ const MainLayout = (props) => {
     <Container fluid className="p-0">
       <div className="footer">
         <Container>
-          <p className="text-center">MADE WITH <span className="text-danger">❤</span> BY HAMSA</p>
+          <p className="text-center">MADE WITH <span className="text-danger">❤</span> BY HAMSA, SOWNDARYA</p>
         </Container>
       </div>
     </Container>
