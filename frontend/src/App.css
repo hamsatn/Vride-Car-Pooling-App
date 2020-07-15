@@ -1,0 +1,77 @@
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.price-trip-card {
+  font-size: 25px;
+}
+.light-icon {
+  color: #d0d0d0;
+}
+.destination-dot, .source-dot {
+  font-weight: bold;
+}
+.destination-dot, .source-dot, .idot {
+  list-style: none;
+}
+.destination-dot::before, .source-dot::before, .idot::before {
+  content: "\2022";
+  color: #28a745;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0em;
+  font-size: 21px;
+}
+.source-dot::before {
+  color: #dc3545;
+}
+.idot::before {
+  color: #6c757d;
+}
+.idot.light::before {
+  font-size: unset;
+  color: #edf1f5;
+}
+.pathway {
+  padding-inline-start: 0px;
+  line-height: 1.2;
+}
+.full-width-height {
+  width: 100%;
+  height: 100%;
+}
+.z-top {
+  z-index: 999;
+}
+.custom-switch, .custom-control {
+  padding-left: 0px;
+}
+.profile-avatar {
+  background-color: grey;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 79px;
+  padding: 0px 38px;
+}
+.time-intermediary {
+  font-size: 12px;
+  padding-left: 7px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #007bff;
+  width: 100%;
+  height: 20px;
+}
+.footer p {
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 2px;
+}
